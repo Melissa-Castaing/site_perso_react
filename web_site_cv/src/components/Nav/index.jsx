@@ -33,18 +33,22 @@ export default function Nav() {
   ];
   return (
     <div className="nav">
-      { navButton.map((button) => (
-        <NavLink
-          key={button.id}
-          to={`${button.road}`}
-          className="nav_link"
-          activeclassname="selected"
-        >
-          {button.nav}
-        </NavLink>
-      ))}
-      <a href="https://www.linkedin.com/in/m%C3%A9lissa-castaing-9b69a9235/"><img className="nav_social" src={linkedin} alt="Linkedin icon" width="30px" /></a>
-      <img className="nav_social" src={github} alt="Github" />
+      <nav className="nav_button">
+        { navButton.map((button) => (
+          <NavLink
+            key={button.id}
+            to={`${button.road}`}
+            className="nav_link"
+            activeclassname="selected"
+          >
+            {button.nav}
+          </NavLink>
+        ))}
+      </nav>
+      <div className="nav_media">
+        <a href="https://www.linkedin.com/in/m%C3%A9lissa-castaing-9b69a9235/" target="_blank" rel="noreferrer"><img className="nav_media_logo" src={linkedin} alt="Linkedin icon" width="60px" /></a>
+        <a href="https://github.com/Melissa-Castaing" target="_blank" rel="noreferrer"><img className="nav_media_logo" src={github} alt="Github icon" width="60px" /></a>
+      </div>
     </div>
   );
 }

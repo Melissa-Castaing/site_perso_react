@@ -4,15 +4,30 @@
   font-family: 'Poppins';
   src: url('../../assets/font/Poppins-Thin.ttf');
 }
-
 .nav {
-  background-color: vars.$navColor;
-  color: vars.$white;
-  font-family: 'Poppins';
-  font-size: 1.5rem;
-  padding: 1.5rem;
+  &_button {
+    background-color: vars.$navColor;
+    color: vars.$white;
+    font-family: 'Poppins';
+    font-size: 1.5rem;
+    padding: 1.5rem;
+  }
   &_link {
-    text-transform: uppercase;
     margin-left: 6rem;
+    transition: all 1s ease-out;
+  }
+  
+  &_media {
+    position: absolute;
+    right: 5rem;
+    top: 0;
+    &_logo {
+      margin-left: 2.5rem;
+    }
   }
 }
+a:hover {
+  // transition: font-size 0.5s;
+  font-size: 2rem;
+}
+
