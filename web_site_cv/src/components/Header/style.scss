@@ -1,0 +1,16 @@
+@use "../../vars";
+
+@font-face {
+  font-family: 'Poppins-Medium';
+  src: url('../../assets/font/Poppins-Medium.ttf');
+}
+.header {
+  color: vars.$navColor;
+  font-weight:bold;
+  font-family: 'Poppins-Medium';
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2;
+}
