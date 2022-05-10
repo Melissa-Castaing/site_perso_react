@@ -1,0 +1,16 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &_describe {
+    width: 80%;
+    padding: 2rem;
+    font-family: 'Poppins';
+    font-size: 1.2rem;
+  }
+  &_profil {
+    width: 10%;
+    clip-path: ellipse(49% 28%);
+  }
+  
+}

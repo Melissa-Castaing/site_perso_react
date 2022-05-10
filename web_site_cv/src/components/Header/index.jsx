@@ -14,9 +14,9 @@ export default function Header() {
           typewriter.typeString('Je suis curieuse, ')
             .pauseFor(1000);
           // .deleteChars(8);
-          typewriter.typeString('passionnée')
+          typewriter.typeString('passionnée.')
             .pauseFor(1000)
-            .deleteChars(20);
+            .deleteChars(21);
           typewriter.typeString('développeuse full stack junior')
             .pauseFor(3000)
             .deleteChars(10)
