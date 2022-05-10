@@ -1,0 +1,16 @@
+@use "../../vars";
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../../assets/font/Poppins-Light.ttf');
+}
+
+.hobbies {
+  border: 1px solid black;
+  margin-top: 2rem;
+  &_title {
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
+    color: vars.$navColor;
+  }
+}

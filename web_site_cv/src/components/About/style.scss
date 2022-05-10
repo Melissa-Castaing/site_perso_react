@@ -2,8 +2,9 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: 10px 10px 5px rgb(147 149 156 / 30%);
   &_describe {
-    width: 80%;
+    width: 60%;
     padding: 2rem;
     font-family: 'Poppins';
     font-size: 1.2rem;

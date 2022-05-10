@@ -17,7 +17,7 @@ export default function Header() {
           typewriter.typeString('passionnée.')
             .pauseFor(1000)
             .deleteChars(21);
-          typewriter.typeString('développeuse full stack junior')
+          typewriter.typeString('développeuse full stack JS junior')
             .pauseFor(3000)
             .deleteChars(10)
             .start();

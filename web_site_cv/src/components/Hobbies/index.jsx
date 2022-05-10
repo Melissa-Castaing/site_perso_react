@@ -2,6 +2,8 @@ import './style.scss';
 
 export default function Hobbies() {
   return (
-    <div className="hobbies"> ici les hobbies</div>
+    <div className="hobbies">
+      <h1 className="hobbies_title"> Hobbies </h1>
+    </div>
   );
 }

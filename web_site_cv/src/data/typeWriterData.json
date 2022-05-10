@@ -1,0 +1,20 @@
+{
+  "homepage": [
+    {
+      "text": "Je suis curieuse, ",
+      "pause": 1000,
+      "delete": null
+    },
+    {
+      "text": "passionnée.",
+      "pause": 1000,
+      "delete": 21
+    },
+    {
+      "text": "développeuse full stack JS.",
+      "pause": 3000,
+      "delete": 10
+    }
+  ],
+  "about": []
+}

@@ -13,7 +13,7 @@ export default function Nav() {
     {
       id: 2,
       nav: 'Mon parcours',
-      road: '/parcours',
+      road: '/career',
     },
     {
       id: 3,
@@ -23,7 +23,7 @@ export default function Nav() {
     {
       id: 4,
       nav: 'Mes projets',
-      road: '/projets',
+      road: '/projects',
     },
     {
       id: 5,

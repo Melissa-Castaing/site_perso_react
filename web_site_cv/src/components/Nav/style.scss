@@ -16,6 +16,7 @@
   &_link {
     margin-left: 6rem;
     transition: all 1s ease-out;
+    display:inline-block;
   }
   
   &_media {
@@ -29,7 +30,6 @@
   }
 }
 a:hover {
-  // transition: font-size 0.5s;
-  font-size: 2rem;
+  transform: scale(1.2);
 }
 
