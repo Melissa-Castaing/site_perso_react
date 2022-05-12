@@ -1,6 +1,4 @@
 import { useEffect, useContext } from 'react';
-import Nav from '../components/Nav';
-import Header from '../components/Header';
 import About from '../components/About';
 import Hobbies from '../components/Hobbies';
 import typewriter from '../contexts/typewriterContext';
@@ -16,8 +14,6 @@ export default function HomePage() {
 
   return (
     <div>
-      <Nav />
-      <Header />
       <About />
       <Hobbies />
     </div>

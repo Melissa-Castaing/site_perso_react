@@ -3,18 +3,56 @@
     {
       "text": "Je suis curieuse, ",
       "pause": 1000,
-      "delete": null
+      "delete": null,
+      "deleteAll": false
     },
     {
       "text": "passionnée.",
       "pause": 1000,
-      "delete": 21
+      "delete": 21,
+      "deleteAll": false
     },
     {
       "text": "développeuse full stack JS.",
       "pause": 3000,
-      "delete": 10
+      "delete": 10,
+      "deleteAll": false
     }
   ],
-  "about": []
+  "career": [
+    {
+      "text": "Formations suivies, ",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": false
+    },
+    {
+      "text": "expériences professionnelles",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": true
+    },
+    {
+      "text": "Bref mon parcours !",
+      "pause": 1000,
+      "delete": 19,
+      "deleteAll": false
+    },
+    {
+      "text": "Mon parcours",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": true,
+      "stop": true
+    }
+  ],
+  "skills": [
+    {
+      "text": "Mes skills ",
+      "pause": 2000,
+      "delete": null,
+      "deleteAll": false,
+      "stop": true
+    }
+  ]
 }
