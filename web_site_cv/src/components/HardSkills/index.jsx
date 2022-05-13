@@ -6,8 +6,8 @@ import node from '../../assets/hardskills/node.png';
 import postgres from '../../assets/hardskills/postgresql.png';
 import react from '../../assets/hardskills/react.png';
 import redux from '../../assets/hardskills/redux.png';
-import semantic from '../../assets/hardskills/semantic.png';
-import sql from '../../assets/hardskills/sql.jpg';
+import semantic from '../../assets/hardskills/semanticUI.png';
+import sql from '../../assets/hardskills/sql.png';
 import './style.scss';
 
 export default function HardSkills() {
@@ -65,6 +65,9 @@ export default function HardSkills() {
   ];
   return (
     <div className="hardSkills">
+      <h1 className="hardSkills_title">
+        Hard Skills
+      </h1>
       {
       logos.map((logo) => (
         <img key={logo.id} className="hardSkills_logo" src={logo.image} alt={logo.name} />

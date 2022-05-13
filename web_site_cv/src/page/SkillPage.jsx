@@ -11,8 +11,6 @@ export default function SkillPage() {
   // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
   return (
-    <div>
-      <HardSkills />
-    </div>
+    <HardSkills />
   );
 }

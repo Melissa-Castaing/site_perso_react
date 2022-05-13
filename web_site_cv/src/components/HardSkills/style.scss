@@ -1,6 +1,23 @@
-.hardSkills {
-  &_logo {
-    width: 10%;
-  }
+@use "../../vars";
 
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../../assets/font/Poppins-Light.ttf');
+}
+
+.hardSkills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 2rem;
+  &_title {
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
+    color: vars.$navColor;
+    font-size: 1.5rem;
+  }
+  &_logo {
+    margin-top: 2rem;
+    width: 10%;
+  } 
 }
