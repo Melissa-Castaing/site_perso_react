@@ -18,22 +18,28 @@
     font-size: 1.5rem;
     margin-right: 5rem;
     text-align: end;
-    position: relative;
-    &::before {
-      width: 500px;
-      height: 1px;
-      content: "";
-      position: absolute;
-      background-color: black;
-    }
   }
   &_list{
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     &_skills {
       font-family: 'Poppins';
       font-size: 1.5rem;
-      margin-left: 2rem;
+      margin-top: 2rem;
+      margin-left: 10rem;
+      position: relative;
+      &::before {
+        z-index: -1;
+        bottom: 9px;
+        left: -7px;
+        width: 20px;
+        height: 20px;
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        background-color: vars.$skillColor;
+      }
     }
   }
 }
