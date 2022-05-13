@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 2rem;
+  box-shadow: 10px 10px 5px rgb(147 149 156 / 30%);
   &_title {
     font-family: 'Poppins-Light';
     text-transform: uppercase;
@@ -18,6 +19,6 @@
   }
   &_logo {
     margin-top: 2rem;
-    width: 10%;
+    width: 12%;
   } 
 }

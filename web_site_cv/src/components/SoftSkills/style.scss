@@ -1,0 +1,39 @@
+@use "../../vars";
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url('../../assets/font/Poppins-Light.ttf');
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('../../assets/font/Poppins-Thin.ttf');
+}
+
+.softSkills {
+  margin-top: 2rem;
+  &_title {
+    font-family: 'Poppins-Light';
+    text-transform: uppercase;
+    color: vars.$navColor;
+    font-size: 1.5rem;
+    margin-right: 5rem;
+    text-align: end;
+    position: relative;
+    &::before {
+      width: 500px;
+      height: 1px;
+      content: "";
+      position: absolute;
+      background-color: black;
+    }
+  }
+  &_list{
+    display: flex;
+    flex-wrap: wrap;
+    &_skills {
+      font-family: 'Poppins';
+      font-size: 1.5rem;
+      margin-left: 2rem;
+    }
+  }
+}
