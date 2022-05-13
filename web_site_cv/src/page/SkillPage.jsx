@@ -1,4 +1,5 @@
 import { useEffect, useContext } from 'react';
+import HardSkills from '../components/HardSkills';
 import typewriter from '../contexts/typewriterContext';
 import typeWriterData from '../data/typeWriterData.json';
 
@@ -11,7 +12,7 @@ export default function SkillPage() {
   }, []);
   return (
     <div>
-      pouet
+      <HardSkills />
     </div>
   );
 }

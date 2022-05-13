@@ -48,7 +48,46 @@
   ],
   "skills": [
     {
-      "text": "Mes skills ",
+      "text": "Mes skills",
+      "pause": 2000,
+      "delete": null,
+      "deleteAll": false,
+      "stop": true
+    }
+  ],
+  "projects": [
+    {
+      "text": "Mes projets",
+      "pause": 2000,
+      "delete": null,
+      "deleteAll": false,
+      "stop": true
+    }
+  ],
+  "contact": [
+    {
+      "text": "Je cherche un stage,",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": false,
+      "stop": true
+    },
+    {
+      "text": "un CDD,",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": false,
+      "stop": true
+    },
+    {
+      "text": "un CDI",
+      "pause": 1000,
+      "delete": null,
+      "deleteAll": true,
+      "stop": true
+    },
+    {
+      "text": "N'hésitez pas à me contacter !",
       "pause": 2000,
       "delete": null,
       "deleteAll": false,

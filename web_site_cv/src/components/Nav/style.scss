@@ -15,7 +15,8 @@
   }
   &_link {
     margin-left: 6rem;
-    transition: all 1s ease-out;
+    transition: all 0.5s ease-out;
+    // display inline block permet que toute la nav ne bouge pas au survol du bouton
     display:inline-block;
   }
   
