@@ -10,12 +10,14 @@
     font-family: 'Poppins-Light';
     text-transform: uppercase;
     color: vars.$navColor;
+    margin-left: 3rem;
     font-size: 1.5rem;
+    margin-bottom: 0.5rem;
     &_list {
       display: flex;
-      justify-content: space-evenly;
-      border-top: 1px solid vars.$navColor;
-      border-bottom: 1px solid vars.$navColor;
+      justify-content: space-around;
+      border-top: 1px solid vars.$lightGrey;
+      border-bottom: 1px solid vars.$lightGrey;
       &_second {
         font-family: 'Poppins';
         font-size: 1.2rem;
@@ -23,6 +25,19 @@
         color: vars.$navColor;
         margin-bottom: 1rem;
         margin-top: 1rem;
+        position: relative;
+        &::after {
+          width: 0;
+          height: 0;
+          border-top: 20px solid vars.$white;
+          border-left: 30px solid transparent;
+          border-right: 30px solid transparent;
+          content: "";
+          position: absolute;
+          top: 35px;
+          right: 10px;
+          z-index: 1;
+        }
       }
     }
   }
