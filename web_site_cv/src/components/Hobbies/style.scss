@@ -6,11 +6,24 @@
 }
 
 .hobbies {
-  border: 1px solid black;
-  margin-top: 2rem;
   &_title {
     font-family: 'Poppins-Light';
     text-transform: uppercase;
     color: vars.$navColor;
+    font-size: 1.5rem;
+    &_list {
+      display: flex;
+      justify-content: space-evenly;
+      border-top: 1px solid vars.$navColor;
+      border-bottom: 1px solid vars.$navColor;
+      &_second {
+        font-family: 'Poppins';
+        font-size: 1.2rem;
+        text-transform: uppercase;
+        color: vars.$navColor;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+      }
+    }
   }
 }

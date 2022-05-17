@@ -1,7 +1,6 @@
 import { useEffect, useContext } from 'react';
 import About from '../components/About';
 import Hobbies from '../components/Hobbies';
-import Slider from '../components/Slider';
 import typewriter from '../contexts/typewriterContext';
 import typeWriterData from '../data/typeWriterData.json';
 
@@ -17,8 +16,6 @@ export default function HomePage() {
     <div>
       <About />
       <Hobbies />
-      <Slider />
-
     </div>
   );
 }

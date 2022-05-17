@@ -1,4 +1,5 @@
 .about {
+  height: 23vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -9,7 +10,7 @@
     font-size: 1.2rem;
   }
   &_profil {
-    width: 10%;
+    width: 8%;
     clip-path: ellipse(49% 28%);
   }
   

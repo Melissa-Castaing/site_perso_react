@@ -5,27 +5,26 @@
   src: url('../../assets/font/Poppins-Medium.ttf');
 }
 .header {
-  &_line {
-    margin-top: 4rem;
-    margin-bottom: 2rem;
-    width: 705px;
-    height: 1px;
-    background-color: vars.$navColor;
-    &_under {
-    right: 0;
-    position: absolute;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-    width: 905px;
-    height: 1px;
-    background-color: vars.$navColor;
-    }
-  }
   color: vars.$navColor;
   font-weight:bold;
   font-family: 'Poppins-Medium';
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
+  &_line {
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+    width: 705px;
+    height: 1px;
+    background-color: vars.$navColor;
+    &_under {
+    right: 0;
+    position: absolute;
+    margin-top: 1rem;
+    width: 905px;
+    height: 1px;
+    background-color: vars.$navColor;
+    }
+  }
 }
