@@ -1,4 +1,4 @@
-import Slider from '../Slider';
+import Slider from '../MultiSlider';
 import './style.scss';
 
 export default function Hobbies() {
